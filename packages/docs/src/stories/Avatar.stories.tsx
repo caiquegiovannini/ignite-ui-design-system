@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/caiquegiovannini.png',
     alt: 'Caique Giovannini',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
